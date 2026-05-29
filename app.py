@@ -10,7 +10,7 @@ from collections import defaultdict
 from sklearn.cluster import KMeans
 
 # ====== CONFIG ======
-API_URL = os.getenv("SCORES_API_URL", "http://127.0.0.1:3000/api/saveScores")
+API_URL = os.getenv("SCORES_API_URL", "http://127.0.0.1:3003/api/saveScores")
 API_TOKEN = os.getenv("ML_API_TOKEN", "")  # optional; sent if present
 ALLOW_ORIGINS = os.getenv("ALLOW_ORIGINS", "*")
 DEFAULT_CLUSTERS = int(os.getenv("DEFAULT_CLUSTERS", "3"))
